@@ -23,9 +23,10 @@ body {
     width: 80%;
     max-width: 900px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-    overflow: hidden;  /* To prevent overflowing text */
+    overflow: hidden;
     position: relative;
     color: #fff;
+    display: inline-block;
 }
 
 .header {
@@ -48,8 +49,8 @@ body {
     overflow: hidden;
     display: inline-block;
     width: 0;
-    border-right: 3px solid #fff; /* The cursor effect */
-    animation: typing 4s steps(50) 1s forwards, blink 0.75s step-end infinite;
+    border-right: 3px solid #fff;
+    animation: typing 15s steps(100) 1s forwards, blink 0.75s step-end infinite;
 }
 
 @keyframes typing {
