@@ -1,0 +1,16 @@
+/* Light theme version for Catppuccin */
+body {
+    background-color: #f1f1f1;
+    color: #333;
+}
+
+.terminal {
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #ddd;
+}
+
+.theme-toggle-btn {
+    background-color: #ffcc00;
+    color: #333;
+}
