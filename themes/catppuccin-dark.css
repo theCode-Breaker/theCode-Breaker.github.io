@@ -1,0 +1,16 @@
+/* Dark theme version for Catppuccin */
+body {
+    background-color: #1e1e1e;
+    color: #f1f1f1;
+}
+
+.terminal {
+    background-color: #282828;
+    color: #f1f1f1;
+    border: 1px solid #444;
+}
+
+.theme-toggle-btn {
+    background-color: #ffcc00;
+    color: #f1f1f1;
+}
